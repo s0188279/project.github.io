@@ -51,6 +51,7 @@ header {
 }
 
 .bykety {
+    
     display: grid;
     grid-template-columns: 180px 180px 180px 180px;
     grid-template-rows: 150px 150px 150px;
@@ -64,6 +65,23 @@ header {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 5;
+}
+
+.zakazy {
+    background-color: #b5ecf5;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(10, 150px);
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+    justify-content: center;
+}
+
+.zh {
+    justify-content: center;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .menu {

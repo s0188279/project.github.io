@@ -70,8 +70,8 @@ header {
 .zakazy {
     background-color: #b5ecf5;
     display: grid;
-    grid-template-columns: 500px;
-    grid-template-rows: repeat(10, 150px);
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(9, 150px);
     grid-column-gap: 25px;
     grid-row-gap: 15px;
     justify-content: center;
@@ -79,9 +79,6 @@ header {
 
 .zh {
     justify-content: center;
-    display: grid;
-    grid-row-start: 1;
-    grid-row-end: 3;
     color: #333;
 }
 
@@ -89,6 +86,7 @@ header {
     line-height: 1.5;
     background-color: white;
     color: #333;
+    padding: 40px;
 }
 
 .menu {

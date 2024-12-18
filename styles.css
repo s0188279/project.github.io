@@ -79,6 +79,7 @@ header {
 
 .zh {
     justify-content: center;
+    display: grid;
     color: #333;
 }
 
